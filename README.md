@@ -1,133 +1,112 @@
-# 🚀 CivoraX Internship Program 2025-26
+# VoiceAid AI – Voice Based Assistant for Rural Users
 
-<p align="center">
-  <img src="https://internship.civoranexus.com/CivoraX.png" alt="CivoraX Logo" width="200"/>
-</p>
+VoiceAid AI is a voice-first intelligent assistant designed to help rural and low-literacy users access essential information such as government schemes, weather updates, and advisories using simple voice commands in regional languages.
 
-<p align="center">
-  <strong>Launch your tech career with real projects, expert mentorship, and industry-recognized certification</strong>
-</p>
+## Project ID
+AID106 – Civora Nexus Pvt. Ltd.
 
+## Key Features
+- Voice-based interaction
+- Speech-to-Text (STT)
+- AI-based Natural Language Understanding (NLU)
+- Multilingual support
+- Simple and accessible design
 
+## Tech Stack
+- Python
+- Speech-to-Text (STT)
+- NLP
+- Text-to-Speech (TTS)
+- Git & GitHub
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Duration-5%20Weeks-blue" alt="Duration"/>
-  <img src="https://img.shields.io/badge/Start%20Date-Jan%205%2C%202026-green" alt="Start Date"/>
-  <img src="https://img.shields.io/badge/End%20Date-Feb%208%2C%202026-orange" alt="End Date"/>
-  <img src="https://img.shields.io/badge/Mode-Remote--First-purple" alt="Mode"/>
-</p>
+## Project Status
+Phase 1 – Voice Input & Speech Recognition
 
----
+Phase 2 – Natural Language Understanding (NLU)
 
-## 📊 Program Statistics
+In Phase 2, the project focuses on enabling the system to understand user intent and context from multilingual voice inputs, rather than only converting speech to text.
 
-| Metric | Value |
-|--------|-------|
-| 🎓 Interns Trained | 300+ |
-| 💼 Live Projects | 20 |
-| ⏱️ Program Duration | 5 Weeks |
+This phase forms the core intelligence layer of VoiceAid AI.
 
----
+Key Capabilities Implemented
 
+Intent Classification
 
-## 📅 Program Details
+The system analyzes transcribed user speech and classifies it into predefined intents such as:
 
-| Detail | Information |
-|--------|-------------|
-| **Duration** | 5-week intensive program |
-| **Dates** | January 5 - February 8, 2026 |
-| **Format** | Remote-first with live sessions and workshops |
-| **Structure** | Real-time project work with weekly milestones |
+  weather_query
 
----
+  scheme_query
 
-## ✅ Eligibility Criteria
+  unknown_intent
 
-- ✔️ Students from **any year or degree program**
-- ✔️ Recent graduates and **career switchers** welcome
-- ✔️ **Basic programming knowledge** required
-- ✔️ Strong **passion for technology** and learning
+  Entity Extraction
 
----
+Important contextual information is extracted from user queries, such as:
 
-## 🛠️ Technologies You'll Master
+Date references (e.g., today, tomorrow)
 
-| Category | Technologies |
-|----------|-------------|
-| **Frontend** | React, Next.js |
-| **Backend** | Node.js, Python |
-| **Advanced** | AI & Machine Learning |
-| **Infrastructure** | Cloud & DevOps |
-| **Mobile** | Cross-platform Development |
-| **Database** | SQL & NoSQL Systems |
-| **APIs** | RESTful & GraphQL |
-| **Workflow** | Agile & Git |
+Multilingual Understanding
 
----
+Supports intent detection and entity extraction for:
 
-## 📋 Application Process
+  Hindi
 
-```
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   01. Register  │───▶│  02. Team       │───▶│  03. Receive    │
-│   Online        │    │  Review         │    │  Confirmation   │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-```
+  Telugu
 
-1. **📝 Register Online** - Complete your application form with details and preferences
-2. **🔍 CivoraX Team Review** - Our team reviews your application and qualifications
-3. **✉️ Eligibility Email** - Receive confirmation email if selected
+Explainable AI Logic
+
+Rule-based NLP logic is used for transparent and explainable intent detection, suitable for low-resource and rural use cases.
+
+Example Workflow
+
+    User Voice Input (Telugu/Hindi)
+            ↓
+    Speech-to-Text (STT)
+            ↓
+    Intent Detection (NLU)
+            ↓
+    Entity Extraction
 
 
+Example:
 
+Input (Telugu):
 
-## 📞 Contact Information
+  “రేపు వాతావరణం ఎలా ఉంటుంది”
 
-| Channel | Details |
-|---------|---------|
-| 📧 **Email** | [contact@civoranexus.com](mailto:contact@civoranexus.com) |
-| 📱 **Phone** | [+91 7350675192](tel:+917350675192) |
-| 📍 **Location** | 422605, Sangamner, Maharashtra, India |
+Output:
 
-### 🔗 Social Links
+  Intent: weather_query
+  Entity: date = tomorrow
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-CivoraX-blue?style=flat&logo=linkedin)](https://www.linkedin.com/company/civoranexus)
-[![Instagram](https://img.shields.io/badge/Instagram-CivoraX-E4405F?style=flat&logo=instagram)](https://www.instagram.com/civoranexus)
-[![Twitter](https://img.shields.io/badge/Twitter-CivoraX-1DA1F2?style=flat&logo=twitter)](https://twitter.com/civoranexus)
-[![YouTube](https://img.shields.io/badge/YouTube-CivoraX-FF0000?style=flat&logo=youtube)](https://www.youtube.com/@civoranexus)
+Technologies Used
 
----
+  Python
 
-## 🏢 About Civora Nexus
+  Rule-based NLP logic
 
-**Civora Nexus Pvt. Ltd.** is a technology company empowering communities through innovative civic and healthcare technology solutions.
+  Multilingual keyword matching
 
-### Company Services:
-- 🔄 Digital Transformation for Businesses
-- 🏘️ Smart Community & Enterprise Solutions
-- 💡 Affordable Tech Solutions
-- 📊 Data Analytics & Business Insights
-- 🎓 Innovation & Skill Development
-- 🤖 AI & Automation Solutions
+  Modular AI design (STT → NLU separation)
 
----
+Outcome of Phase 2
 
-## 📚 Quick Links
+  By the end of Phase 2, the system can intelligently interpret user queries, identify their purpose, and extract key contextual details, enabling accurate routing to knowledge retrieval and response generation modules in the next phase.
+## Phase 3 – Knowledge Base & Response Generation
 
-- 🌐 [Official Website](https://civoranexus.com/)
-- 📋 [Internship Portal](https://civoranexus.com/internships)
-- 🔐 [Certificate Verification](https://internship.civoranexus.com)
-- 📄 [Privacy Policy](https://civoranexus.com/privacy-policy)
-- 📜 [Terms of Service](https://civoranexus.com/terms-and-conditions)
+Phase 3 focuses on enabling the system to generate meaningful and citizen-friendly responses based on the detected intent and extracted entities.
 
+### Key Features
 
+- **Knowledge Base Integration**
+  - Structured JSON-based knowledge base for weather updates and government scheme information
+- **Intent-Based Response Generation**
+  - User intent is mapped to relevant information from the knowledge base
+- **Context-Aware Answers**
+  - Responses adapt based on extracted entities such as date (today/tomorrow)
+- **Explainable AI Flow**
+  - Clear separation between NLU and response generation logic
 
-<p align="center">
-  <strong>© 2025 Civora Nexus Pvt. Ltd. All rights reserved.</strong>
-</p>
-
-<p align="center">
-  Made with ❤️ by CivoraX Team
-</p>
-
+### Example Flow
 
