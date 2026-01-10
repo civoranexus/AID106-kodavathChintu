@@ -1,4 +1,6 @@
 from stt import listen_and_transcribe
+from nlu import detect_intent, extract_entities
+from response_generator import generate_response
 
 if __name__ == "__main__":
     print("Select language:")
@@ -12,5 +14,13 @@ if __name__ == "__main__":
     else:
         language = "hi-IN"
 
-    result = listen_and_transcribe(language=language)
-    print("Final Output:", result)
+    text = listen_and_transcribe(language=language)
+
+    intent = detect_intent(text)
+    entities = extract_entities(text)
+
+    response = generate_response(intent, entities)
+
+    print("🔍 Intent:", intent)
+    print("📌 Entities:", entities)
+    print("🗣️ Response:", response)

@@ -1,0 +1,9 @@
+{
+  "weather": {
+    "today": "Today’s weather is expected to be clear with moderate temperatures.",
+    "tomorrow": "Tomorrow there is a chance of light rain. Farmers are advised to plan accordingly."
+  },
+  "schemes": {
+    "general": "Government agricultural schemes provide financial support, subsidies, and crop insurance for farmers."
+  }
+}
